@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Black Goose Bistro - Reservations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">The Black Goose Bistro</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reservations.html" class="active">Reservations</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Book a Table</h1>
+        <p>Fill out the form below to reserve your table with us. We look forward to hosting you!</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact Information (Phone or Email):</label>
+                <input type="text" id="contact" name="contact" required placeholder="Enter phone number or email">
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <select id="guests" name="guests" required>
+                    <option value="">Select guests</option>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                    <option value="5">5+ People</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-btn">Confirm Reservation</button>
+        </form>
+    </main>
+    <footer>
+        &copy; 2026 The Black Goose Bistro. All rights reserved.
+    </footer>
+</body>
+</html>
